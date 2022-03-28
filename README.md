@@ -1,6 +1,6 @@
 # fourier series animation
 
-Computes and animates Fourier series from supplied drawings.
+Computes Fourier series from supplied drawings and animates them as rotating vectors.
 
 Originally for the Advanced Topics in Mathematics class at The Putney School.
 
