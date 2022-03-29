@@ -33,7 +33,10 @@ def main(width, height):
                     2,
                     )
                 pygame.display.flip()
-            points.append(mouse_pos)
+                if points[-1] != mouse_pos:
+                    points.append(mouse_pos)
+            else:
+                points.append(mouse_pos)
         elif pygame.key.get_pressed()[pygame.K_SPACE]:
             if over:
                 pygame.quit()
